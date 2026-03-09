@@ -21,16 +21,19 @@ nav a{
 }
 .daftar-produk{
     display:grid;
-    grid-template-columns: minmax(250px,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 20px;
+    padding: 20px;
 }
 .produk{
-    background-color: #2663ba
+    background-color: #557db5
     border 1px solid  #051031;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 0 10px 20px 10px;
+    max-width: 300px;
 }
 .produk img {
     width: 150px;
@@ -40,7 +43,7 @@ nav a{
 }
 .produk h2{
     font-size: 20px;
-    color: #1a6cdf;
+    color: #304f7b;
 }
 .produk h3{
     font-size: 16px;
@@ -52,13 +55,13 @@ nav a{
 }
 .deskripsi{
     font-size: 14px;
-    color: #d4af37;
+    color: #07070e;
 }
 .artikel {
           max-width: 700px;
           margin:auto
           padding 20px;
-          background-color: #1F3A5F;
+          background-color: #4e8ee8;
           font-family: 'Georgia',serif;
           line-height:  1.8;
 }
@@ -100,7 +103,7 @@ nav a{
     padding: 20px;
     background-color:#1a6cdf ;
     border-radius: 10px;
-    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    box-shadow:  0 0 10px rgba(63, 80, 235, 0.1);
 }
 form label{
     display: block;
@@ -128,3 +131,21 @@ form button{
 form button:hover {
     background-color: #0a1f44;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #eeefff;
+    line-height: 1.6;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: #5d78ff;
+    color: #fffcfc;
+    padding: 40px;
+    margin: 0;
+}
+
